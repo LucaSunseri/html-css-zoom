@@ -16,6 +16,10 @@ body {
   color: #23d959;
 }
 
+.active {
+  border: 4px solid #5fc00f;
+}
+
 /***************  HEADER  ***************/
 
 header {

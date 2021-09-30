@@ -49,6 +49,7 @@ header {
 
 .header-left span {
   padding: 3px 15px;
+  cursor: context-menu;
 }
 
 .header-left span i {
@@ -66,6 +67,7 @@ header {
   padding: 5px 5px;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
+  cursor: context-menu;
 }
 
 .header-right span:hover {
@@ -146,6 +148,7 @@ footer .nav-left ul li {
   align-items: center;
   list-style: none;
   padding: 5px 10px;
+  cursor: context-menu;
 }
 
 footer .nav-left ul li:hover {
@@ -171,6 +174,7 @@ footer .nav-center ul li {
   list-style: none;
   text-align: center;
   padding: 5px 8px;
+  cursor: context-menu;
 }
 
 footer .nav-center ul li:hover {
@@ -183,4 +187,9 @@ footer .nav-center ul li:hover {
   padding: 5px 17px;
   background-color: red;
   border-radius: 8px;
+  cursor: context-menu;
+}
+
+.btn:hover {
+  filter: invert(0.2);
 }
